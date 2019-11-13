@@ -4,7 +4,7 @@ import "./App.css";
 class App extends Component {
   constructor(){
     super();
-
+    
     this.state = {
       message: ''
     }
@@ -13,7 +13,7 @@ class App extends Component {
   handleChange = (val) => {
     this.setState({
       message: val
-    });
+    })
   }
 
   render() {
